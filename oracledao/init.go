@@ -1,7 +1,6 @@
 package oracledao
 
 import (
-	proto "https://github.com/miffa/dbaccess/dbinfo"
 	"context"
 	"database/sql"
 	"encoding/hex"
@@ -11,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"DBMS_DBSEARCH/lib/dao"
-	log "DBMS_DBSEARCH/lib/logrus"
-
+	proto "github.com/miffa/dbaccess/dbinfo"
+	dao "github.com/miffa/dbaccess"
+	log "github.com/sirupseen/logrus"
 	"github.com/go-gorp/gorp"
 	_ "gopkg.in/rana/ora.v4" //oracle driver
 	//_ "github.com/go-goracle/goracle"
