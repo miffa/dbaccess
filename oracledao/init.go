@@ -1,7 +1,7 @@
 package oracledao
 
 import (
-	"DBMS_DBSEARCH/iriscore/proto"
+	proto "https://github.com/miffa/dbaccess/dbinfo"
 	"context"
 	"database/sql"
 	"encoding/hex"
